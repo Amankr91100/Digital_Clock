@@ -3,7 +3,6 @@ let CurrentTime = () =>{
    return (
    <p>
       The is the current Time: {time.toLocaleDateString()} - {time.toLocaleTimeString()}
-       <p>hello</p>
        </p>
    );
 };
